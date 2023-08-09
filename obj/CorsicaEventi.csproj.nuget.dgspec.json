@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brahm\\Desktop\\Amet\\Isika\\Formation\\Projet2\\CorsicaEventi\\CorsicaEventi\\CorsicaEventi.csproj": {}
+    "C:\\Users\\Utilisateur\\Desktop\\Isika\\CDA25\\2\\Projet 2\\CorsicaEventi\\CorsicaEventi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brahm\\Desktop\\Amet\\Isika\\Formation\\Projet2\\CorsicaEventi\\CorsicaEventi\\CorsicaEventi.csproj": {
+    "C:\\Users\\Utilisateur\\Desktop\\Isika\\CDA25\\2\\Projet 2\\CorsicaEventi\\CorsicaEventi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brahm\\Desktop\\Amet\\Isika\\Formation\\Projet2\\CorsicaEventi\\CorsicaEventi\\CorsicaEventi.csproj",
+        "projectUniqueName": "C:\\Users\\Utilisateur\\Desktop\\Isika\\CDA25\\2\\Projet 2\\CorsicaEventi\\CorsicaEventi.csproj",
         "projectName": "CorsicaEventi",
-        "projectPath": "C:\\Users\\brahm\\Desktop\\Amet\\Isika\\Formation\\Projet2\\CorsicaEventi\\CorsicaEventi\\CorsicaEventi.csproj",
-        "packagesPath": "C:\\Users\\brahm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brahm\\Desktop\\Amet\\Isika\\Formation\\Projet2\\CorsicaEventi\\CorsicaEventi\\obj\\",
+        "projectPath": "C:\\Users\\Utilisateur\\Desktop\\Isika\\CDA25\\2\\Projet 2\\CorsicaEventi\\CorsicaEventi.csproj",
+        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Utilisateur\\Desktop\\Isika\\CDA25\\2\\Projet 2\\CorsicaEventi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brahm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.15, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
